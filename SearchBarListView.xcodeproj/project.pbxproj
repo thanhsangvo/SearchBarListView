@@ -11,6 +11,10 @@
 		E94B943824B01F010022E19C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B943724B01F010022E19C /* ContentView.swift */; };
 		E94B943A24B01F030022E19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94B943924B01F030022E19C /* Assets.xcassets */; };
 		E94B943D24B01F030022E19C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94B943C24B01F030022E19C /* Preview Assets.xcassets */; };
+		E94B944524B01F930022E19C /* PhoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B944424B01F930022E19C /* PhoneCell.swift */; };
+		E94B944724B01FC50022E19C /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B944624B01FC50022E19C /* Phone.swift */; };
+		E94B944924B020290022E19C /* PhoneDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B944824B020290022E19C /* PhoneDetail.swift */; };
+		E94B944B24B021080022E19C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B944A24B021080022E19C /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		E94B943924B01F030022E19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E94B943C24B01F030022E19C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E94B943E24B01F030022E19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94B944424B01F930022E19C /* PhoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCell.swift; sourceTree = "<group>"; };
+		E94B944624B01FC50022E19C /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		E94B944824B020290022E19C /* PhoneDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDetail.swift; sourceTree = "<group>"; };
+		E94B944A24B021080022E19C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,8 @@
 		E94B942924B01F010022E19C = {
 			isa = PBXGroup;
 			children = (
+				E94B944A24B021080022E19C /* SearchBar.swift */,
+				E94B944824B020290022E19C /* PhoneDetail.swift */,
 				E94B943424B01F010022E19C /* SearchBarListView */,
 				E94B943324B01F010022E19C /* Products */,
 			);
@@ -54,6 +64,8 @@
 			children = (
 				E94B943524B01F010022E19C /* SearchBarListViewApp.swift */,
 				E94B943724B01F010022E19C /* ContentView.swift */,
+				E94B944624B01FC50022E19C /* Phone.swift */,
+				E94B944424B01F930022E19C /* PhoneCell.swift */,
 				E94B943924B01F030022E19C /* Assets.xcassets */,
 				E94B943E24B01F030022E19C /* Info.plist */,
 				E94B943B24B01F030022E19C /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94B944924B020290022E19C /* PhoneDetail.swift in Sources */,
+				E94B944724B01FC50022E19C /* Phone.swift in Sources */,
 				E94B943824B01F010022E19C /* ContentView.swift in Sources */,
 				E94B943624B01F010022E19C /* SearchBarListViewApp.swift in Sources */,
+				E94B944524B01F930022E19C /* PhoneCell.swift in Sources */,
+				E94B944B24B021080022E19C /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
